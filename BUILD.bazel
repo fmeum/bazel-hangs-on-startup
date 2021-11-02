@@ -1,0 +1,6 @@
+load(":rules.bzl", "bool_flag")
+
+bool_flag(
+    name = "flag",
+    build_setting_default = True,
+)
